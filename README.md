@@ -24,6 +24,8 @@ $ falsk run
 
 ## Algorithm
 ##### Content Based Recommendations (Recommender Algorithm)
-* 
-*
-*
+* To build our model, we created a count matrix that is created by the hlp of a count vectorizer.
+* We used cosine similarity from scikit-learn to determine how similar the movies are, regardless of the size.
+* After building the cosine similarity matrix for our dataset, we can now sort the results to find out the top 10 similar movies.
+* We return the movie title & indexes to the user.
+
