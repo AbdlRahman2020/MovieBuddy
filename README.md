@@ -1,8 +1,8 @@
 # Movie Buddy
 
-#### Live application [here](https://movie-buddyy.herokuapp.com)
+### Live application [here](https://movie-buddyy.herokuapp.com)
 
-### [Project Wiki]()
+### [Project Wiki](https://github.com/AbdlRahman2020/MovieBuddy/wiki/Project-Wiki)
 
 ## Motivation
 We all have this friend that has watched so many movies and we would go to in case we would like to get a movie recommendation.
@@ -124,4 +124,3 @@ _**positive.html**_ is rendered if the input movie name matches with the databas
 * We used cosine similarity from scikit-learn to determine how similar the movies are, regardless of the size.
 * After building the cosine similarity matrix for our dataset, we can now sort the results to find out the top 10 similar movies.
 * We return the movie title & indexes to the user.
-
