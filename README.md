@@ -57,7 +57,7 @@ The project consists mainly of:
 * Static repository: Holds the .css styling sheets. 
 * app.py: Main python file for running the Flask application.
 
-![Project Structure](../static/images/image1.png)
+![Project Structure](./static/images/image1.png)
 
 ### Functionality
 

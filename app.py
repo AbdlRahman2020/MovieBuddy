@@ -6,6 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 app = flask.Flask(__name__, template_folder='templates')
 
+#reading the dataset
 df2 = pd.read_csv('./model/tmdb.csv')
 
 count = CountVectorizer(stop_words='english')
