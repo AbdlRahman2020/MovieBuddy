@@ -1,16 +1,11 @@
 
 The credits for the Content Based Recommendation System is mainly inspired by Google’s [Blog](https://developers.google.com/machine-learning/recommendation) about recommendation systems.
 
-We are going to use TMDB5000 DATASET from Kaggle.com. The dataset consists of 2 files, namely, tmdb_5000_credits.csv & tmdb_5000_movies.csv. There is another dataset called THE MOVIES DATASET which has more than a million movie reviews and ratings. However, I did not use it for 2 reasons.
+We used TMDB5000 DATASET from Kaggle.com. The dataset consists of 2 files, namely, tmdb_5000_credits.csv & tmdb_5000_movies.csv.
 
-    The dataset is too large for the system & requires an estimate of 45–50GB RAM.
-    The machine learning model produced is also too large for Heroku. Heroku does not allow us to store more than 250MB on a free account.
+First We loaded the 2 CSV files into df1 & df2 pandas data frames.
 
-Let me go through the dataset very briefly so that we can focus on building the machine learning model part.
-
-We load the 2 CSV files into df1 & df2 pandas data frames.
-
-Instead of handling both the data frames, I merged the data frames so that we have to work on a single data frame. The dataset thankfully does not have a large number of empty values. Let’s handle them one by one. Here is an overview of all the columns.
+Instead of handling both the data frames, we merged the data frames so that we have to work on a single data frame. The dataset thankfully does not have a large number of empty values. This is the final overview of all the column:
 
 ![All columns view for NaN](../static/images/image3.png)
 
