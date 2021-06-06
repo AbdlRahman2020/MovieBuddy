@@ -10,8 +10,8 @@ app = flask.Flask(__name__, template_folder='templates')
 df2 = pd.read_csv('./model/tmdb.csv')
 
 
-count = CountVectorizer(stop_words='english') #
-count_matrix = count.fit_transform(df2['soup'])
+count = CountVectorizer(stop_words='english') # create a count vector with English stopwords
+count_matrix = count.fit_transform(df2['soup']) # fit and transform over the soup column
 
 cosine_sim2 = cosine_similarity(count_matrix, count_matrix)
 

@@ -2,6 +2,8 @@
 
 ### Live application [here](https://movie-buddyy.herokuapp.com)
 
+### [Docker Image](https://hub.docker.com/r/devocker/movie-buddy)
+
 ### [Project Wiki](https://github.com/AbdlRahman2020/MovieBuddy/wiki/Project-Wiki)
 
 ## Motivation
